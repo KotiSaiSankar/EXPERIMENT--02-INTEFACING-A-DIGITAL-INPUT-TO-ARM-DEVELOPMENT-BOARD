@@ -64,7 +64,7 @@ bool button_status;
    
   }
   
-}
+
 void push_button(){
 	button_status=HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0);
 	if(button_status==1)
